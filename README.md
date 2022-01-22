@@ -23,6 +23,8 @@ You require the following to build Netty:
 
 Note that this is build-time requirement.  JDK 5 (for 3.x) or 6 (for 4.0+ / 4.1+) is enough to run your Netty-based application.
 
+mvn clean install '-Dcheckstyle.skip=true' '-Dmaven.test.skip=true'
+
 ## Branches to look
 
 Development of all versions takes place in each branch whose name is identical to `<majorVersion>.<minorVersion>`.  For example, the development of 3.9 and 4.1 resides in [the branch '3.9'](https://github.com/netty/netty/tree/3.9) and [the branch '4.1'](https://github.com/netty/netty/tree/4.1) respectively.
